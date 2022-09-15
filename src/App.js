@@ -6,7 +6,7 @@ import './App.css';
 const App = () => {
   return (
     <Box width="400px">
-    NavBar
+    <NavBar/>
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/exercise/:id" element={<ExerciseDetail/>}/>
