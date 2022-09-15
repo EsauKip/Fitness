@@ -1,6 +1,7 @@
 body {
     font-family: 'Josefin Sans';
-    background-color: #FFFAFB;
+    background-color: #281a3b;
+    
     
     
   }
@@ -9,6 +10,7 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    color:#ffff;
     
   
   }
@@ -58,11 +60,12 @@ body {
   
   .hero-banner-img {
     position: absolute;
-    right: 40px;
+    right: 35px;
     top: 0px;
-    width: 700px;
-    height: 900px;
-    margin-top: -330px;
+    width: 750px;
+    height: 950px;
+    margin-top: -25px;
+    border-radius:30px;
   
   }
   
