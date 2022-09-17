@@ -142,7 +142,9 @@ body {
     }
   
   }
-  
+ .textField {
+  background-color: white;
+ }
   @media screen and (max-width:400px) {
     .exercise-card {
       width: 280px;
