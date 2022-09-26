@@ -54,8 +54,8 @@ body {
   }
   
   .detail-image {
-    width: 729px;
-    height: 742px;
+    width: 609px;
+    height: 622px;
   }
   
   .hero-banner-img {
@@ -72,7 +72,7 @@ body {
   .exercise-card {
     width: 450px;
     height: 450px;
-    background: #fff;
+    background: rgb(210, 248, 246);
     border-top: 4px solid #FF2625;
     border-bottom-left-radius: 20px;
     text-decoration: none;
