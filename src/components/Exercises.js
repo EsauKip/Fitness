@@ -20,15 +20,17 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
 
         )}
       </Stack>
-      <Stack mt="100px" alignItems="center">
-      {exercises.Length > 9 &&(
-        <Pagination
-        color="standard"
-        shape="rounded"
-        defaultPage={1}
-        count={Math.ceil(exercises.length / 9)}/>
-      ) }
-
+      <Stack sx={{ mt: { lg: '114px', xs: '70px' } }} alignItems="center">
+        {exercises.length > 9 && (
+          <Pagination
+            color="standard"
+            shape="rounded"
+            defaultPage={1}
+            count={Math.ceil(exercises.length / 9)}
+            
+            size="large"
+          />
+        )}
       </Stack>
 
     </Box>
